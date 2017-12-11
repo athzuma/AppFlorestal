@@ -21,6 +21,7 @@ class FlorestaViewController: UIViewController, UICollectionViewDelegate, UIColl
     let tamanhoMaxArvore = 700//cm
     let tamanhoMinArvore = 50//cm
     var quantArvores = 0
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,7 +52,78 @@ class FlorestaViewController: UIViewController, UICollectionViewDelegate, UIColl
         labelClasses.text = "\(Int(sender.value))"
     }
     
-    @IBAction func btnbar(sender: UIBarButtonItem) {
+    
+    @IBAction func btnCalcular(sender: UIBarButtonItem) {
+        var sustentavel = true
+        //flr.removeAll()
+        for i in 0..<Classes.count {
+        //    self.flr.append(classefloresta())
+            Classes[i].x = 0
+        }
+        
+        for i in 0..<Arvores.count {
+            var c = determinarClasse(Arvores[i].tamanho)
+            c = c - 1
+            //print(c)
+            Classes[c].x = Classes[c].x + 1
+        }
+        
+        print("---")
+        var str = ""
+        for i in 0..<Classes.count {
+            print("Classe \(i+1): \(Classes[i].x)")
+            str = str + "Classe \(i+1): \(Classes[i].x), "
+        }
+        
+        var last = Double(Classes[0].x) * Classes[0].g
+        for i in 1..<Classes.count{
+            var atual = Double(Classes[i].x) * Classes[i].g
+            if last >= atual {
+                //sustentavel = true
+            }
+            else
+            {
+                sustentavel = false
+            }
+            last = atual
+        }
+        if last >= 0 {
+            
+        }
+        else
+        {
+            sustentavel = false
+        }
+        
+        if sustentavel {
+            //var aux : Double = 0.00
+            for i in 1..<Classes.count {
+                /*let ac = Classes[i-1]
+                aux = aux + (1/ac.g)
+                Classes[i].rt = Classes[i].p / aux*/
+                print(Classes[i].rt)
+            }
+            
+            var maiorClasse = 0
+            var maiorRT = 0.0
+            var maiorX = 0
+            
+            for i in 1..<Classes.count {
+                if Classes[i].rt >= maiorRT {
+                    maiorRT = Classes[i].rt
+                    maiorClasse = i
+                    maiorX = Classes[i].x
+                }
+            }
+            let rt = maiorRT * Double(maiorX)
+            
+            ZUMAalerta("A classe \(maiorClasse+1) é melhor para corte sustentável", mensagem: "Rendimento Total: R$\(rt)", viewController: self)
+        }
+        else{
+            ZUMAalerta("Não é possível fazer um corte sustentável em uma floresta dessa configuração", mensagem: str, viewController: self)
+        }
+        
+        
         
     }
     

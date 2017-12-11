@@ -17,12 +17,14 @@ class classe {
     var p : Double = 0.00
     var g : Double = 0.00
     var rt : Double = 0.00
+    var x : Int = 0
     
-    init?(classe : Int, p : Double, g : Double, rt : Double) {
+    init?(classe : Int, p : Double, g : Double, rt : Double, x: Int) {
         self.classe = classe
         self.p = p
         self.g = g
         self.rt = rt
+        self.x = x
     }
     
     init() {
@@ -30,6 +32,7 @@ class classe {
         p = 0.00
         g = 0.00
         rt = 0.00
+        x = 0
     }
     
 }
