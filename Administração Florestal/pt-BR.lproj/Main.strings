@@ -1,0 +1,54 @@
+
+/* Class = "UILabel"; text = "Valor Econômico: $10"; ObjectID = "06W-XD-QBe"; */
+"06W-XD-QBe.text" = "Valor Econômico: $10";
+
+/* Class = "UILabel"; text = "Classe 1"; ObjectID = "3f0-uV-pCD"; */
+"3f0-uV-pCD.text" = "Classe 1";
+
+/* Class = "UINavigationItem"; title = "Rendimento Sustentável"; ObjectID = "4JO-I0-0Hh"; */
+"4JO-I0-0Hh.title" = "Rendimento Sustentável";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "7Mg-9P-Lyz"; */
+"7Mg-9P-Lyz.title" = "Item";
+
+/* Class = "UILabel"; text = "00"; ObjectID = "FZY-fo-3NZ"; */
+"FZY-fo-3NZ.text" = "00";
+
+/* Class = "UITabBarItem"; title = "Rendimento Sustentavel"; ObjectID = "GoI-lc-Qa0"; */
+"GoI-lc-Qa0.title" = "Rendimento Sustentavel";
+
+/* Class = "UINavigationItem"; title = "Rendimento Sustentável"; ObjectID = "Gx4-s0-uge"; */
+"Gx4-s0-uge.title" = "Rendimento Sustentável";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "LHD-UW-2fq"; */
+"LHD-UW-2fq.text" = "Label";
+
+/* Class = "UILabel"; text = "100 árvores"; ObjectID = "YAO-Z0-fIB"; */
+"YAO-Z0-fIB.text" = "100 árvores";
+
+/* Class = "UIButton"; normalTitle = "Editar"; ObjectID = "YOa-Ct-kr5"; */
+"YOa-Ct-kr5.normalTitle" = "Editar";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "auw-7S-1EI"; */
+"auw-7S-1EI.text" = "Label";
+
+/* Class = "UILabel"; text = "G = 0,28"; ObjectID = "daU-qw-95a"; */
+"daU-qw-95a.text" = "G = 0,28";
+
+/* Class = "UITabBarItem"; title = "Mudança de Classe"; ObjectID = "eMT-yM-7wv"; */
+"eMT-yM-7wv.title" = "Mudança de Classe";
+
+/* Class = "UILabel"; text = "Número de classes:"; ObjectID = "lgK-4t-D0L"; */
+"lgK-4t-D0L.text" = "Número de classes:";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "mBH-sf-u4V"; */
+"mBH-sf-u4V.title" = "Item";
+
+/* Class = "UILabel"; text = "Número total de árvores da floresta:"; ObjectID = "pDp-8X-rJT"; */
+"pDp-8X-rJT.text" = "Número total de árvores da floresta:";
+
+/* Class = "UIBarButtonItem"; title = "Calcular"; ObjectID = "qb6-Hr-YdX"; */
+"qb6-Hr-YdX.title" = "Calcular";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vH9-9m-yxY"; */
+"vH9-9m-yxY.text" = "Label";

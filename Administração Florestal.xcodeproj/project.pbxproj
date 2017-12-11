@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB1DA6541FD3B6D900B613FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1DA6531FD3B6D900B613FF /* AppDelegate.swift */; };
+		AB1DA6561FD3B6D900B613FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1DA6551FD3B6D900B613FF /* ViewController.swift */; };
+		AB1DA6591FD3B6D900B613FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1DA6571FD3B6D900B613FF /* Main.storyboard */; };
+		AB1DA65C1FD3B6D900B613FF /* Administrac_a_o_Florestal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB1DA65A1FD3B6D900B613FF /* Administrac_a_o_Florestal.xcdatamodeld */; };
+		AB1DA65E1FD3B6D900B613FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1DA65D1FD3B6D900B613FF /* Assets.xcassets */; };
+		AB1DA6611FD3B6D900B613FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1DA65F1FD3B6D900B613FF /* LaunchScreen.storyboard */; };
+		AB1DA6691FD3BB1400B613FF /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1DA6681FD3BB1400B613FF /* Classes.swift */; };
+		AB1DA66D1FD3BD3B00B613FF /* RendimentoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1DA66C1FD3BD3B00B613FF /* RendimentoTableViewCell.swift */; };
+		AB1DA66F1FD3BD5C00B613FF /* RendimentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1DA66E1FD3BD5C00B613FF /* RendimentoViewController.swift */; };
+		AB1DA6711FD3C21500B613FF /* ZUMAalerta.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1DA6701FD3C21500B613FF /* ZUMAalerta.swift */; };
+		AB1DA6731FD3CCB400B613FF /* CalculoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1DA6721FD3CCB400B613FF /* CalculoViewController.swift */; };
+		AB1DA6771FD3D0FB00B613FF /* CalculoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1DA6761FD3D0FB00B613FF /* CalculoTableViewCell.swift */; };
+		AB727E291FD623860019EB50 /* FlorestaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB727E281FD623860019EB50 /* FlorestaViewController.swift */; };
+		AB727E2B1FD624E40019EB50 /* Arvore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB727E2A1FD624E40019EB50 /* Arvore.swift */; };
+		AB727E2D1FD62BCD0019EB50 /* FlorestaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB727E2C1FD62BCD0019EB50 /* FlorestaCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB1DA6501FD3B6D900B613FF /* Administração Florestal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Administração Florestal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1DA6531FD3B6D900B613FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB1DA6551FD3B6D900B613FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB1DA6581FD3B6D900B613FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB1DA65B1FD3B6D900B613FF /* Administrac_a_o_Florestal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Administrac_a_o_Florestal.xcdatamodel; sourceTree = "<group>"; };
+		AB1DA65D1FD3B6D900B613FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB1DA6601FD3B6D900B613FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB1DA6621FD3B6D900B613FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB1DA6681FD3BB1400B613FF /* Classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
+		AB1DA66C1FD3BD3B00B613FF /* RendimentoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RendimentoTableViewCell.swift; sourceTree = "<group>"; };
+		AB1DA66E1FD3BD5C00B613FF /* RendimentoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RendimentoViewController.swift; sourceTree = "<group>"; };
+		AB1DA6701FD3C21500B613FF /* ZUMAalerta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZUMAalerta.swift; sourceTree = "<group>"; };
+		AB1DA6721FD3CCB400B613FF /* CalculoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculoViewController.swift; sourceTree = "<group>"; };
+		AB1DA6761FD3D0FB00B613FF /* CalculoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculoTableViewCell.swift; sourceTree = "<group>"; };
+		AB439F5F1FDE3AE0004BFEA9 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		AB439F601FDE3AE1004BFEA9 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		AB727E281FD623860019EB50 /* FlorestaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlorestaViewController.swift; sourceTree = "<group>"; };
+		AB727E2A1FD624E40019EB50 /* Arvore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arvore.swift; sourceTree = "<group>"; };
+		AB727E2C1FD62BCD0019EB50 /* FlorestaCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlorestaCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB1DA64D1FD3B6D800B613FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB1DA6471FD3B6D800B613FF = {
+			isa = PBXGroup;
+			children = (
+				AB1DA6521FD3B6D900B613FF /* Administração Florestal */,
+				AB1DA6511FD3B6D900B613FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB1DA6511FD3B6D900B613FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB1DA6501FD3B6D900B613FF /* Administração Florestal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB1DA6521FD3B6D900B613FF /* Administração Florestal */ = {
+			isa = PBXGroup;
+			children = (
+				AB1DA6531FD3B6D900B613FF /* AppDelegate.swift */,
+				AB1DA6551FD3B6D900B613FF /* ViewController.swift */,
+				AB1DA6571FD3B6D900B613FF /* Main.storyboard */,
+				AB1DA6681FD3BB1400B613FF /* Classes.swift */,
+				AB727E2A1FD624E40019EB50 /* Arvore.swift */,
+				AB439F611FDE3EA8004BFEA9 /* Floresta */,
+				AB1DA6791FD3D12400B613FF /* Rendimento */,
+				AB1DA6781FD3D11B00B613FF /* Calculo */,
+				AB1DA6701FD3C21500B613FF /* ZUMAalerta.swift */,
+				AB1DA65D1FD3B6D900B613FF /* Assets.xcassets */,
+				AB1DA65F1FD3B6D900B613FF /* LaunchScreen.storyboard */,
+				AB1DA6621FD3B6D900B613FF /* Info.plist */,
+				AB1DA65A1FD3B6D900B613FF /* Administrac_a_o_Florestal.xcdatamodeld */,
+			);
+			path = "Administração Florestal";
+			sourceTree = "<group>";
+		};
+		AB1DA6781FD3D11B00B613FF /* Calculo */ = {
+			isa = PBXGroup;
+			children = (
+				AB1DA6721FD3CCB400B613FF /* CalculoViewController.swift */,
+				AB1DA6761FD3D0FB00B613FF /* CalculoTableViewCell.swift */,
+			);
+			name = Calculo;
+			sourceTree = "<group>";
+		};
+		AB1DA6791FD3D12400B613FF /* Rendimento */ = {
+			isa = PBXGroup;
+			children = (
+				AB1DA66E1FD3BD5C00B613FF /* RendimentoViewController.swift */,
+				AB1DA66C1FD3BD3B00B613FF /* RendimentoTableViewCell.swift */,
+			);
+			name = Rendimento;
+			sourceTree = "<group>";
+		};
+		AB439F611FDE3EA8004BFEA9 /* Floresta */ = {
+			isa = PBXGroup;
+			children = (
+				AB727E281FD623860019EB50 /* FlorestaViewController.swift */,
+				AB727E2C1FD62BCD0019EB50 /* FlorestaCollectionViewCell.swift */,
+			);
+			name = Floresta;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB1DA64F1FD3B6D800B613FF /* Administração Florestal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1DA6651FD3B6D900B613FF /* Build configuration list for PBXNativeTarget "Administração Florestal" */;
+			buildPhases = (
+				AB1DA64C1FD3B6D800B613FF /* Sources */,
+				AB1DA64D1FD3B6D800B613FF /* Frameworks */,
+				AB1DA64E1FD3B6D800B613FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Administração Florestal";
+			productName = "Administração Florestal";
+			productReference = AB1DA6501FD3B6D900B613FF /* Administração Florestal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB1DA6481FD3B6D800B613FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Athila Zuma Queiroz Vaz";
+				TargetAttributes = {
+					AB1DA64F1FD3B6D800B613FF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AB1DA64B1FD3B6D800B613FF /* Build configuration list for PBXProject "Administração Florestal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+			);
+			mainGroup = AB1DA6471FD3B6D800B613FF;
+			productRefGroup = AB1DA6511FD3B6D900B613FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB1DA64F1FD3B6D800B613FF /* Administração Florestal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB1DA64E1FD3B6D800B613FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1DA6611FD3B6D900B613FF /* LaunchScreen.storyboard in Resources */,
+				AB1DA65E1FD3B6D900B613FF /* Assets.xcassets in Resources */,
+				AB1DA6591FD3B6D900B613FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB1DA64C1FD3B6D800B613FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1DA6731FD3CCB400B613FF /* CalculoViewController.swift in Sources */,
+				AB1DA6771FD3D0FB00B613FF /* CalculoTableViewCell.swift in Sources */,
+				AB1DA66F1FD3BD5C00B613FF /* RendimentoViewController.swift in Sources */,
+				AB1DA6561FD3B6D900B613FF /* ViewController.swift in Sources */,
+				AB727E2B1FD624E40019EB50 /* Arvore.swift in Sources */,
+				AB727E291FD623860019EB50 /* FlorestaViewController.swift in Sources */,
+				AB1DA6541FD3B6D900B613FF /* AppDelegate.swift in Sources */,
+				AB1DA66D1FD3BD3B00B613FF /* RendimentoTableViewCell.swift in Sources */,
+				AB727E2D1FD62BCD0019EB50 /* FlorestaCollectionViewCell.swift in Sources */,
+				AB1DA6691FD3BB1400B613FF /* Classes.swift in Sources */,
+				AB1DA6711FD3C21500B613FF /* ZUMAalerta.swift in Sources */,
+				AB1DA65C1FD3B6D900B613FF /* Administrac_a_o_Florestal.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB1DA6571FD3B6D900B613FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB1DA6581FD3B6D900B613FF /* Base */,
+				AB439F5F1FDE3AE0004BFEA9 /* pt-BR */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB1DA65F1FD3B6D900B613FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB1DA6601FD3B6D900B613FF /* Base */,
+				AB439F601FDE3AE1004BFEA9 /* pt-BR */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB1DA6631FD3B6D900B613FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB1DA6641FD3B6D900B613FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB1DA6661FD3B6D900B613FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Administração Florestal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.athilazuma.Administrac-a-o-Florestal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB1DA6671FD3B6D900B613FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Administração Florestal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.athilazuma.Administrac-a-o-Florestal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB1DA64B1FD3B6D800B613FF /* Build configuration list for PBXProject "Administração Florestal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1DA6631FD3B6D900B613FF /* Debug */,
+				AB1DA6641FD3B6D900B613FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1DA6651FD3B6D900B613FF /* Build configuration list for PBXNativeTarget "Administração Florestal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1DA6661FD3B6D900B613FF /* Debug */,
+				AB1DA6671FD3B6D900B613FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AB1DA65A1FD3B6D900B613FF /* Administrac_a_o_Florestal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AB1DA65B1FD3B6D900B613FF /* Administrac_a_o_Florestal.xcdatamodel */,
+			);
+			currentVersion = AB1DA65B1FD3B6D900B613FF /* Administrac_a_o_Florestal.xcdatamodel */;
+			path = Administrac_a_o_Florestal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AB1DA6481FD3B6D800B613FF /* Project object */;
+}
